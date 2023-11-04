@@ -6,7 +6,7 @@ import { BsArrowRight, BsLinkedin, BsDownload, BsGithub } from 'react-icons/bs'
 
 export default function Intro() {
   return (
-    <section className="z-40">
+    <section id="home" className="z-40 scroll-mt-[100rem]">
       <motion.h1
         className="font-bold text-center mb-2 text-3xl sm:text-4xl"
         initial={{ opacity: 0, y: 100 }}
